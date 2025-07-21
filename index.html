@@ -1857,7 +1857,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update logo source based on theme
         const logo = document.querySelector('.logo');
         if (document.body.classList.contains('dark-mode')) {
-            logo.src = 'inver.png';
+            logo.src = 'logoinver.png';
         } else {
             logo.src = '.png';
         }
@@ -1872,7 +1872,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const logo = document.querySelector('.logo');
         const savedTheme = localStorage.getItem('theme') || 'light';
         if (savedTheme === 'dark') {
-            logo.src = 'inver.png';
+            logo.src = 'logoinver.png';
         } else {
             logo.src = '.png';
         }
